@@ -25,7 +25,7 @@ export const projects = [
       tags: ['HTML5', 'CSS3', 'JavaScript', 'React', 'CSS3', 'Fabric.js', 'Chart.js', 'Naver Map API', 'GitHub', 'Jenkins']
     },
     {
-      category: 'Education Platform · 2023 — 2024',
+      category: 'Education Platform · 2023 — ing',
       title: '비바클래스 구축 및 운영',
       thumb: './src/img/project/project05.svg',
       period: '2023. 11 ~ 현재',
@@ -41,7 +41,7 @@ export const projects = [
         'Sortable.js를 활용한 드래그 앤 드롭 기능 구현',
         'Chart.js를 이용해 도넛·막대 그래프 데이터 시각화 구현'
       ],
-      tags: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Fetch API', 'Sortable.js', 'Chart.js', 'GitHub', 'Jenkins']
+      tags: ['HTML5', 'CSS3', 'JavaScript', 'Fetch API', 'Sortable.js', 'Chart.js', 'GitHub', 'Jenkins']
     },
     {
       category: 'Education Platform · 2024 — 2025',
