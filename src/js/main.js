@@ -31,16 +31,21 @@ function openModal(idx) {
 	});
 
 	const urlList = document.getElementById('modalUrls');
-	p.siteUrl.forEach(t => {
-		const li = document.createElement('li');
-		const a = document.createElement('a');
-		a.classList.add('btn-link')
-		a.textContent = t[0]
-		a.setAttribute('href', t[1]);
-		a.setAttribute('target', '_blank');
-		li.append(a);
-		urlList.appendChild(li);
-	});
+	urlList.innerHTML = '';
+	if(p.siteUrl.length < 1) urlList.style.display = 'none';
+	else{
+		urlList.style.display = 'block';
+		p.siteUrl.forEach(t => {
+			const li = document.createElement('li');
+			const a = document.createElement('a');
+			a.classList.add('btn-link')
+			a.textContent = t[0]
+			a.setAttribute('href', t[1]);
+			a.setAttribute('target', '_blank');
+			li.append(a);
+			urlList.appendChild(li);
+		});
+	}
 	
 	const tagRow = document.getElementById('modalTags');
 	tagRow.innerHTML = '';
