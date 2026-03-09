@@ -82,7 +82,7 @@ footer span { font-size: 0.68rem; color: var(--light); letter-spacing: 0.1em; }
 
 .modal-overlay {position: fixed;inset: 0;background: rgba(28, 28, 28, 0.5);backdrop-filter: blur(5px);-webkit-backdrop-filter: blur(5px);z-index: 500;display: flex;align-items: center;justify-content: center;padding: 24px;opacity: 0; visibility: hidden; pointer-events: none;transition: opacity 0.28s ease;}
 .modal-overlay.open {opacity: 1; visibility: visible; pointer-events: all;}
-.modal {background: var(--white);width: 100%;max-width: 660px;max-height: 88vh;overflow-y: auto;position: relative;transform: translateY(18px) scale(0.99);transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);scrollbar-width: thin;scrollbar-color: var(--line) transparent; word-break: keep-all;}
+.modal {background: var(--white);width: 100%;max-width: 660px;max-height: 88dvh;overflow-y: auto;position: relative;transform: translateY(18px) scale(0.99);transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);scrollbar-width: thin;scrollbar-color: var(--line) transparent; word-break: keep-all;}
 .modal::-webkit-scrollbar { width: 4px; }
 .modal::-webkit-scrollbar-track { background: transparent; }
 .modal::-webkit-scrollbar-thumb { background: var(--line); }
@@ -131,7 +131,7 @@ footer span { font-size: 0.68rem; color: var(--light); letter-spacing: 0.1em; }
   .project-arrow { display: none; }
   footer { gap: 12px; }
   .modal-overlay { padding: 0;}
-  .modal { max-width: 100%; max-height:100vh; border-radius: 0; }
+  .modal { max-width: 100%; max-height:100dvh; border-radius: 0; }
   .modal-header { padding: 24px 24px 20px; }
   .modal-body { padding: 20px 24px 32px; }
   .modal-meta-row { grid-template-columns: 1fr; }
