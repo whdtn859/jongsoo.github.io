@@ -8,10 +8,10 @@ export const projects = [
       client: '비상기업',
       overview: '교육 서비스 플랫폼 비바샘의 Web·Mobile·Admin 전반을 장기 운영한 프로젝트입니다. 매년 신학기에 맞춘 고도화 및 개편 작업을 반복 수행하며, 구조 변경에 유연하게 대응할 수 있도록 마크업 구조를 설계하여 작업 효율을 꾸준히 높였습니다.',
       siteUrl:[
-        ["초등 PC : https://e.vivasam.com/", "https://e.vivasam.com/"],
-        ["중고등 PC : https://v.vivasam.com/", "https://v.vivasam.com/"],
-        ["초등 MO : https://me.vivasam.com/#/", "https://me.vivasam.com/#/"],
-        ["중고등 MO : https://mv.vivasam.com/#/", "https://mv.vivasam.com/#/"],
+        ["초등 PC", "https://e.vivasam.com/"],
+        ["중고등 PC", "https://v.vivasam.com/"],
+        ["초등 MO", "https://me.vivasam.com/#/"],
+        ["중고등 MO", "https://mv.vivasam.com/#/"],
       ],
       tasks: [
         '신학기 개편 주기를 고려한 확장 가능한 마크업 구조 설계로 반복 작업 시간 단축',
@@ -33,7 +33,7 @@ export const projects = [
       client: '비상기업',
       overview: '비상기업의 신규 교육 서비스 플랫폼 비바클래스를 구축한 프로젝트입니다. 다양한 UI 인터랙션과 데이터 시각화 기능을 구현하며 사용자 경험을 높이는 데 집중했습니다.',
       siteUrl:[
-        ["URL : https://vivaclass.vivasam.com/", "https://vivaclass.vivasam.com/"]
+        ["WEB", "https://vivaclass.vivasam.com/"]
       ],
       tasks: [
         'Fetch API를 활용한 서버 데이터 동적 처리 및 API 연동 작업',
@@ -52,7 +52,7 @@ export const projects = [
       client: '비상기업',
       overview: '비바샘 교육용 테마관의 일환으로 구축된 중등 지리 교과 자료실 및 한국 지도 인터랙티브 구현 프로젝트입니다. 다양한 라이브러리와 API를 활용해 학습에 최적화된 인터랙티브 환경을 제공했습니다.',
       siteUrl:[
-        ["URL : https://dn22.vivasam.com/vs/theme/geography/korea/digitalmap.html", "https://dn22.vivasam.com/vs/theme/geography/korea/digitalmap.html"]
+        ["WEB", "https://dn22.vivasam.com/vs/theme/geography/korea/digitalmap.html"]
       ],
       tasks: [
         'CSS 변수 활용으로 레이아웃 전반의 일관성 확보 및 유지보수 효율화',
@@ -72,7 +72,7 @@ export const projects = [
       client: '비상기업',
       overview: '네이티브 50% / 웹 50% 구성의 하이브리드 앱으로, 네이티브 개발자와 긴밀히 협업하여 진행한 프로젝트입니다. iOS·AOS·Web 전 디바이스에서의 완성도 높은 사용자 경험 제공에 집중했습니다.',
       siteUrl:[
-        ["WEB : https://tabtap.co.kr/web/main", "https://tabtap.co.kr/web/main"]
+        ["WEB", "https://tabtap.co.kr/web/main"]
       ],
       tasks: [
         'Table 태그와 JavaScript를 활용해 날짜 강조·하단 슬라이드 팝업 연동 캘린더 기능 구현',

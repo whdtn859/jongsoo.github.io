@@ -117,6 +117,10 @@ footer span { font-size: 0.68rem; color: var(--light); letter-spacing: 0.1em; }
 .fade-in {opacity: 0; visibility: hidden; transform: translateY(16px);transition: opacity 0.6s ease, transform 0.6s ease;}
 .fade-in.visible {opacity: 1; visibility: visible; transform: none;}
 
+.modal-url-list{margin-top:12px; display:flex; flex-wrap:wrap; gap:6px;}
+.modal-url-list a{font-size: 0.72rem; text-transform: uppercase;padding: 4px 10px;border: 1px solid var(--line);color: var(--mid);border-radius: 2px; transition: .25s;}
+.modal-url-list a:hover{color: var(--accent); border-color:var(--accent);}
+
 @media (max-width: 680px) {
   .page { padding: 48px 24px 80px; }
   header { grid-template-columns: 1fr; gap: 24px; }

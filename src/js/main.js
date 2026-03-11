@@ -34,16 +34,16 @@ function openModal(idx) {
 	urlList.innerHTML = '';
 	if(p.siteUrl.length < 1) urlList.style.display = 'none';
 	else{
-		urlList.style.display = 'block';
+		urlList.style.display = '';
 		p.siteUrl.forEach(t => {
 			const li = document.createElement('li');
 			const a = document.createElement('a');
 			a.classList.add('btn-link')
 			a.textContent = t[0]
 			a.setAttribute('href', t[1]);
-			a.setAttribute('target', '_blank');
-			li.append(a);
-			urlList.appendChild(li);
+			a.setAttribute('title', t[0]);
+			a.setAttribute('target', '_blank');		
+			urlList.appendChild(a);
 		});
 	}
 	
